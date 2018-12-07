@@ -313,7 +313,7 @@ We will add a **Hyperloop** logo
 
 <div class="hyperloophelloword">
 
-  <img src="https://rawgit.com/ruby-hyperloop/hyperloop-js-helloworld/master/hyperloop-logo-medium-white.png?raw=true">
+  <img src="https://cdn.jsdelivr.net/gh/ruby-hyperloop/hyperloop-js-helloworld/hyperloop-logo-medium-white.png?raw=true">
 
   <div>
     <%= react_component '::Helloworld', {}, { prerender: true } %>
@@ -333,7 +333,7 @@ And load 1 small sample stylesheet :
     <title>HyperloopRailsHelloworld</title>
     <%= csrf_meta_tags %>
 
-  <link rel="stylesheet" href="https://rawgit.com/ruby-hyperloop/hyperloop-js-helloworld/master/style.css" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruby-hyperloop/hyperloop-js-helloworld/style.css" >
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
